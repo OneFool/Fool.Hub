@@ -1,0 +1,35 @@
+repeat wait() until game:IsLoaded()
+
+if game.PlaceId == 10369535604 then
+    -- Shinden
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Shinden"))()
+elseif game.PlaceId == 11676335670 then
+    -- Hunter x Athena
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Hunter%20x%20Athena"))()
+elseif game.PlaceId == 2537430692 then
+    -- Jenga
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Jenga"))()
+elseif game.PlaceId == 4457085477 then
+    -- Grimshot
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Grimshot"))()
+elseif game.PlaceId == 5935619804 then
+    -- Grimshot
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Grimshot"))()
+elseif game.PlaceId == 3272915504 then
+    -- Arcane Odyssey
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Arcane-Oddysey"))()
+elseif game.PlaceId == 12604352060 then
+    -- Arcane Odyssey
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Arcane-Oddysey"))()
+elseif game.PlaceId == 6398059124 then
+    -- SG2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/SG2"))()
+else
+    setclipboard("discord.gg/TvPZf5mrwN")
+    game:GetService("StarterGui"):SetCore("SendNotification",
+        {
+            Title = "Game is not supported!",
+            Text = "Use one of the game specific loadstrings in the discord! \n(Copied discord invite to clipboard)",
+            Icon = "rbxassetid://12614663538"
+        })
+end
