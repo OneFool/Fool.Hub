@@ -24,6 +24,9 @@ elseif game.PlaceId == 12604352060 then
 elseif game.PlaceId == 6398059124 then
     -- SG2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/SG2"))()
+elseif game.PlaceId == 11594096486 then
+    -- Undisputed Boxers
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Undisputed-Boxers"))()
 else
     setclipboard("discord.gg/TvPZf5mrwN")
     game:GetService("StarterGui"):SetCore("SendNotification",
