@@ -27,6 +27,9 @@ elseif game.PlaceId == 6398059124 then
 elseif game.PlaceId == 11594096486 then
     -- Undisputed Boxers
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Undisputed-Boxers"))()
+elseif game.PlaceId == 7719700868 then
+    -- Force
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/Force.lua"))()
 else
     setclipboard("discord.gg/TvPZf5mrwN")
     game:GetService("StarterGui"):SetCore("SendNotification",
