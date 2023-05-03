@@ -30,6 +30,9 @@ elseif game.PlaceId == 11594096486 then
 elseif game.PlaceId == 7719700868 then
     -- Force
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Misc/main/Force.lua"))()
+elseif game.PlaceId == 13220854697 then
+    -- SO2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/SO2"))()
 else
     setclipboard("discord.gg/TvPZf5mrwN")
     game:GetService("StarterGui"):SetCore("SendNotification",
