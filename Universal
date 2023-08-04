@@ -33,6 +33,9 @@ elseif game.PlaceId == 7719700868 then
 elseif game.PlaceId == 13220854697 then
     -- SO2
     loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Fool.Hub/main/SO2"))()
+elseif game.PlaceId == 10595058975 then
+    -- Arcane Lineage
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OneFool/Misc/main/Arcane%20Lineage%20(WIP)"))()
 else
     setclipboard("discord.gg/TvPZf5mrwN")
     game:GetService("StarterGui"):SetCore("SendNotification",
